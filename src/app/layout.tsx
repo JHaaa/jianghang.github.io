@@ -6,7 +6,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <title>JIANG Hang's Personal Website</title>
+        <title>JIANG Hang&apos;s Personal Website</title>
       </head>
       <body>
         <nav style={{ display: 'flex', justifyContent: 'center', gap: '100px', padding: '50px', backgroundColor: '#f0f0f0' }}>
