@@ -27,7 +27,7 @@ export default function HomePage() {
           Special Class for the Gifted Young</a> at the University of Science and Technology of China (USTC).
         </p>
         <p>My <a href="/research">Research</a> encompasses contract theory, <a href="/web3-experience">Web3</a>, and their convergence.</p>
-        <p>Find me on <a href="https://twitter.com/CyberHang" target="_blank" rel="noopener noreferrer">X</a>.</p>
+        <p>Connect with me on <a href="https://twitter.com/CyberHang" target="_blank" rel="noopener noreferrer">X</a>.</p>
       </div>
     </div>
   );

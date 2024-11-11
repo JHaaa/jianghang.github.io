@@ -21,7 +21,7 @@ const ResearchPage = () => {
         </li>
         <br />
         <li>
-          Jiang, Hang. (2024). 
+          Jiang, Hang. (2022). 
           <a className={styles.link} href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4853229" target="_blank" rel="noopener noreferrer"> A Dynamic Model for Token-gated Clubs.
           </a>
         </li>
