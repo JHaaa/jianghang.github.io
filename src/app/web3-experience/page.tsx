@@ -8,7 +8,7 @@ const Web3ExperiencePage = () => {
                 <p>
                   Crypto investor since 2018; joined 
                     <a href="https://globalcoinresearch.com/" target="_blank" rel="noopener noreferrer"> Global Coin Research (GCR)</a> in 2021 and served as Head of Research during 2021-2022. 
-                    Now still active, investing and sharing insights within the 
+                    Now active as a core-team member, investing and sporadically sharing thoughts within the 
                     <a href="https://discord.com/invite/globalcoinresearch" target="_blank" rel="noopener noreferrer"> GCR community on Discord</a>.
                 </p>
                 

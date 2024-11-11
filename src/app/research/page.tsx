@@ -4,7 +4,7 @@ import styles from './ResearchPage.module.css';
 const ResearchPage = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>Research</h1>
+      <h1>Research</h1>
 
       <h3 className={styles.header}>Working Papers</h3>
       <ul className={styles.customList}>
