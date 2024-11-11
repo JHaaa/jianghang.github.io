@@ -17,29 +17,29 @@ const Web3ExperiencePage = () => {
                     <li>
                         Jiang, Hang. (2022). 
                         <a className={styles.link} href="https://mirror.xyz/globalcoinresearch.eth/0oJnV52MRJ-bYCMz9vQnT3ZBDaGal5A0mJM9gzXIb8k" target="_blank" rel="noopener noreferrer">
-                            "How Much Liquidity is Needed to Solve Sandwich Attacks," <em>Global Coin Research</em>, March 2022.
+                            &ldquo;How Much Liquidity is Needed to Solve Sandwich Attacks,&rdquo; <em>Global Coin Research</em>, March 2022.
                         </a>
                     </li>
                     <li>
                         Jiang, Hang. (2021). 
                         <a className={styles.link} href="https://mirror.xyz/globalcoinresearch.eth/ZW0f3noANH-WEUg7GTYbt6Yk98PZA19tjp-XIHSv7pU" target="_blank" rel="noopener noreferrer">
-                            "What Does DAO 2.0 Tokenomics Look Like," <em>Global Coin Research</em>, December 2021.
+                            &ldquo;What Does DAO 2.0 Tokenomics Look Like,&rdquo; <em>Global Coin Research</em>, December 2021.
                         </a>
                     </li>
                 </ul>
 
                 <h3 className={styles.header}>My Talks in 2021-2022</h3>
                 <ul className={styles.customList}>
-                    <li>"Deep Dive into Livepeer (Web3 Video Infrastructure)" <a href="https://www.youtube.com/watch?v=NDndnjvOXN8" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"Deep Dive into Web3 Social Graphs" <a href="https://www.youtube.com/watch?v=wYQdmAEnJTg" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"Who will be Next Ethereum Killers?" <a href="https://www.youtube.com/watch?v=Y_GRlUq8daM" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"The Rise of Investment DAOs" <a href="https://discord.com/channels/461610456163811354/859873106515591188/1025443505914531981" target="_blank" rel="noopener noreferrer">[Slides]</a></li>
-                    <li>"Deep Dive into Lens Protocol" <a href="https://www.youtube.com/watch?v=6P225vtAP9E&t=90s" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"Deep Dive into Metaverse Platforms" <a href="https://www.youtube.com/watch?v=IITsL6527WU" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"Deep Dive into Terra Ecosystem" <a href="https://www.youtube.com/watch?v=5n9huQog-Mk" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"How to Evaluate DeFi Projects" <a href="https://www.youtube.com/watch?v=UOLRFBN5elc" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"A map of GCR's Top Investments" <a href="https://www.youtube.com/watch?v=R7f-fSYy9a8" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
-                    <li>"Deep Dive into Apricot Finance & DeFi Landscape in SOLANA" <a href="https://www.youtube.com/watch?v=62xWpBvsx7w" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;Deep Dive into Livepeer (Web3 Video Infrastructure)&rdquo; <a href="https://www.youtube.com/watch?v=NDndnjvOXN8" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;Deep Dive into Web3 Social Graphs&rdquo; <a href="https://www.youtube.com/watch?v=wYQdmAEnJTg" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;Who will be Next Ethereum Killers?&rdquo; <a href="https://www.youtube.com/watch?v=Y_GRlUq8daM" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;The Rise of Investment DAOs&rdquo; <a href="https://discord.com/channels/461610456163811354/859873106515591188/1025443505914531981" target="_blank" rel="noopener noreferrer">[Slides]</a></li>
+                    <li>&ldquo;Deep Dive into Lens Protocol&rdquo; <a href="https://www.youtube.com/watch?v=6P225vtAP9E&t=90s" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;Deep Dive into Metaverse Platforms&rdquo; <a href="https://www.youtube.com/watch?v=IITsL6527WU" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;Deep Dive into Terra Ecosystem&rdquo; <a href="https://www.youtube.com/watch?v=5n9huQog-Mk" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;How to Evaluate DeFi Projects&rdquo; <a href="https://www.youtube.com/watch?v=UOLRFBN5elc" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;A map of GCR&apos;s Top Investments&rdquo; <a href="https://www.youtube.com/watch?v=R7f-fSYy9a8" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+                    <li>&ldquo;Deep Dive into Apricot Finance &amp; DeFi Landscape in SOLANA&rdquo; <a href="https://www.youtube.com/watch?v=62xWpBvsx7w" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
                 </ul>
             </div>
         </div>
