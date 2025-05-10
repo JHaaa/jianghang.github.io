@@ -26,7 +26,7 @@ export default function HomePage() {
           and a B.S. in Statistics from the <a href="https://en.wikipedia.org/wiki/Special_Class_for_the_Gifted_Young#University_of_Science_and_Technology_of_China" target="_blank" rel="noopener noreferrer">
           Special Class for the Gifted Young</a> at the University of Science and Technology of China (USTC).
         </p>
-        <p>My <a href="/research">Research</a> encompasses contract theory, <a href="/web3-experience">Web3</a>, and their convergence.</p>
+        <p>My <a href="/research">Research</a> encompasses principal agent problems and decision analytics, applied microeconomics, and Web3.</p>
         <p>Connect with me on <a href="https://twitter.com/CyberHang" target="_blank" rel="noopener noreferrer">X</a>.</p>
       </div>
     </div>

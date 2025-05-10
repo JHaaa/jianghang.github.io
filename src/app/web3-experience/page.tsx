@@ -14,17 +14,23 @@ const Web3ExperiencePage = () => {
                 
                 <h3 className={styles.header}>Articles</h3>
                 <ul className={styles.customList}>
+                <li>
+                        Jiang, Hang. (2025). 
+                        <a className={styles.link} href="https://ethresear.ch/t/toward-a-general-model-for-proposer-selection-mechanism-design/21790" target="_blank" rel="noopener noreferrer">
+                            &ldquo;Toward a General Model for Proposer Selection Mechanism Design,&rdquo; 
+                        </a> <em>Ethereum Research</em>, Feb 2025.
+                    </li>
                     <li>
                         Jiang, Hang. (2022). 
                         <a className={styles.link} href="https://mirror.xyz/globalcoinresearch.eth/0oJnV52MRJ-bYCMz9vQnT3ZBDaGal5A0mJM9gzXIb8k" target="_blank" rel="noopener noreferrer">
-                            &ldquo;How Much Liquidity is Needed to Solve Sandwich Attacks,&rdquo; <em>Global Coin Research</em>, March 2022.
-                        </a>
+                            &ldquo;How Much Liquidity is Needed to Solve Sandwich Attacks,&rdquo; 
+                        </a> <em>Global Coin Research</em>, March 2022.
                     </li>
                     <li>
                         Jiang, Hang. (2021). 
                         <a className={styles.link} href="https://mirror.xyz/globalcoinresearch.eth/ZW0f3noANH-WEUg7GTYbt6Yk98PZA19tjp-XIHSv7pU" target="_blank" rel="noopener noreferrer">
-                            &ldquo;What Does DAO 2.0 Tokenomics Look Like,&rdquo; <em>Global Coin Research</em>, December 2021.
-                        </a>
+                            &ldquo;What Does DAO 2.0 Tokenomics Look Like,&rdquo; 
+                        </a> <em>Global Coin Research</em>, December 2021.
                     </li>
                 </ul>
 
