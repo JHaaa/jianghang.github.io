@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: left;
   text-align: left;
-  max-width: 1000px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
@@ -28,7 +28,41 @@
 }
 
 .link {
-  color: #0070f3;
+  color: #1a0dab;         /* 柔和蓝灰 */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #1a0dab;         /* 鼠标悬停变主蓝色 */
   text-decoration: underline;
 }
+
+.paperLink {
+  font-style: italic;
+  color: #1a0dab;
+  text-decoration: none;
+  margin-left: 8px;
+  transition: color 0.2s ease;
+}
+
+.paperLink:hover {
+  color: #d93025;
+}
+
+.underReview {
+  margin-left: 8px;
+  font-style: normal;
+  color: #333;
+}
+
+/* 让子行更透气的行距与间距 */
+.subItem {
+  display: block;
+  margin-top: 6px;
+  line-height: 1.2;
+}
+
+/* 其余你已有样式保持不变 */
+
 
