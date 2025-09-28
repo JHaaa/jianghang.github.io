@@ -24,7 +24,7 @@ export default function HomePage() {
         <p>
           I am a PhD candidate in the{' '}
           <a href="https://www.comp.nus.edu.sg/disa/" target="_blank" rel="noopener noreferrer">
-            Department of Information Systems
+            Department of Information Systems and Analytics
           </a>{' '}
           at the School of Computing, National University of Singapore (NUS).
           Prior to joining NUS, I obtained an M.S. in Probability and Mathematical Statistics
@@ -44,15 +44,9 @@ export default function HomePage() {
         </p>
         <p>
           <strong>
-            My <a href="/research">research</a> centers on problems of incentive misalignment.
+            My <a href="/research">research</a> investigates how misaligned incentives distort markets and information systems, and how contracts, mechanisms, and policies can be designed to address such limits.
           </strong>{' '}
-          I pursue two main strands of research. The first develops new theoretical tools for classic principal–agent problems. The second investigates modern challenges in human–AI interactions, digital platforms, blockchain, and data markets, where issues such as strategic fakery and data manipulation frequently emerge.
-        </p>
-        <p>
-          Connect with me on{' '}
-          <a href="https://twitter.com/CyberHang" target="_blank" rel="noopener noreferrer">
-            X
-          </a>.
+          I pursue this agenda through two complementary research strands. The first develops new theoretical tools for classic principal-agent problems. The second investigates modern challenges in AI, blockchain, livestream commerce, and data markets, where issues such as strategic fakery and data manipulation frequently emerge.
         </p>
       </div>
     </div>

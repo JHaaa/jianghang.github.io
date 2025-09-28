@@ -8,6 +8,21 @@ const ResearchPage = () => {
 
       <h3 className={styles.header}>Working Papers</h3>
       <ul className={styles.customList}>
+
+      <li>
+          <strong>Hang Jiang</strong>, Jussi Keppo
+          <span style={{ marginLeft: '6px' }}>(2025).</span>
+          <a
+            href="https://ssrn.com/abstract=5359948"
+            className={styles.paperLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The Human Roadblock to AI.
+          </a>
+          <span className={styles.underReview}>Submitted</span>
+        </li>
+
         <li>
           <strong>Hang Jiang</strong>
           <span style={{ marginLeft: '6px' }}>(2025).</span>
@@ -17,9 +32,9 @@ const ResearchPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            An Implementation Relaxation Approach to Principal–Agent Problems.
+            An Implementation Relaxation Approach to Principal-Agent Problems.
           </a>
-          <span className={styles.underReview}>In preparation for submission</span>
+          <span className={styles.underReview}>Under Review</span>
         </li>
 
         <li>
@@ -37,46 +52,70 @@ const ResearchPage = () => {
         </li>
 
         <li>
-          <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang
-          <span style={{ marginLeft: '6px' }}>(2024).</span>
-          <a
-            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135"
-            className={styles.paperLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Revisiting the First-Order Approach to Principal-Agent Problems.
-          </a>
-          <span className={styles.underReview}>
-            <em>Management Science</em> Major Revision
-          </span>
-          <div className={styles.subItem}>
-            — Accepted into the 25th ACM Conference on Economics and Computation (EC&apos;24){' '}
-            <a
-              href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              [on YouTube]
-            </a>
-          </div>
-          <div className={styles.subItem}>
-            — Accepted into the 7th World Congress of the Game Theory Society (GAMES 2024)
-          </div>
-          <div className={styles.subItem}>
-            — Accepted into the Conference on Information System and Technology (CIST 2024)
-          </div>
-        </li>
+  <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang
+  <span style={{ marginLeft: '6px' }}>(2024).</span>
+  <a
+    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135"
+    className={styles.paperLink}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Revisiting the First-Order Approach to Principal-Agent Problems.
+  </a>
+  <span className={styles.underReview}>
+    <em>Management Science</em> Major Revision
+  </span>
+
+  {/* 📍 子项部分用 <ul><li> 替换，自动生成圆点 */}
+  <ul style={{ marginTop: '0.5rem', marginLeft: '1rem', lineHeight: '1', color: '#000', listStyleType: 'disc' }}>
+    <li>
+      <strong>ORSS Best Student Paper Award</strong>{' '}
+      <a
+        href="/ORS_Best_Student_Paper.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: 'underline', marginLeft: '6px' }}
+      >
+        [certificate]
+      </a>
+    </li>
+
+    <li>
+      Accepted into the 25th ACM Conference on Economics and Computation (EC&apos;24){' '}
+      <a
+        href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.link}
+      >
+        [on YouTube]
+      </a>
+    </li>
+
+    <li>
+      Accepted into the 7th World Congress of the Game Theory Society (GAMES 2024)
+    </li>
+
+    <li>
+      Accepted into the Conference on Information System and Technology (CIST 2024)
+    </li>
+  </ul>
+</li>
+
       </ul>
 
       <h3 className={styles.header}>Conference Talks</h3>
       <ul className={styles.customList}>
         <li>
-          Selected for presentation at the INFORMS Job Market Showcase Track (October 2025, Atlanta)
+          Selected for presentation at the INFORMS Job Market Showcase Track (October 26, 2025, Atlanta)
+        </li>
+        <li>Next-Gen Scholar Symposium, Analytics for X Conference 2025 (Sep 26, 2025, NUS, Singapore)</li>
+        <li>2025 INFORMS International Conference (Jul 21, 2025, Singapore)</li>
+        <li>
+          The 7th World Congress of the Game Theory Society (August 22, 2024, PKU, Beijing)
         </li>
         <li>
-          The 25th ACM Conference on Economics and Computation (July 9, 2024, Yale University, New Haven){' '}
+          The 25th ACM Conference on Economics and Computation (July 9, 2024, Yale, New Haven){' '}
           <a
             href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
             target="_blank"
@@ -86,13 +125,19 @@ const ResearchPage = () => {
             [on YouTube]
           </a>
         </li>
-        <li>
-          The 7th World Congress of the Game Theory Society (August 22, 2024, Peking University, Beijing)
-        </li>
       </ul>
 
       <h3 className={styles.header}>Awards</h3>
       <ul className={styles.customList}>
+        <li>
+        <a
+            className={styles.link}
+            href="/ORS_Best_Student_Paper.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ORSS Best Student Paper Award
+          </a>, Singapore 2025  </li>
         <li>Finalist, Next-Gen Scholar&apos;s Symposium, NUS 2025</li>
         <li>
           <a
