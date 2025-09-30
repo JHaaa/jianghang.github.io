@@ -34,7 +34,7 @@ export default function HomePage() {
           </a>{' '}
           at the Southern University of Science and Technology (SUSTech), and a B.S. in Statistics from the{' '}
           <a
-            href="https://en.wikipedia.org/wiki/Special_Class_for_the_Gifted_Young#University_of_Science_and_Technology_of_China"
+            href="https://en.wikipedia.org/wiki/Special_Class_for_the_Gifted_Young"
             target="_blank"
             rel="noopener noreferrer"
           >
