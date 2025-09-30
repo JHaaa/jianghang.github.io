@@ -40,7 +40,7 @@ const Web3ExperiencePage = () => {
                     </li>
                 </ul>
 
-                <h3 className={styles.header}>My Talks in 2021-2022</h3>
+                <h3 className={styles.header}>My Talks in 2021 and 2022</h3>
                 <ul className={styles.customList}>
                     <li>&ldquo;Deep Dive into Livepeer (Web3 Video Infrastructure)&rdquo; <a href="https://www.youtube.com/watch?v=NDndnjvOXN8" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
                     <li>&ldquo;Deep Dive into Web3 Social Graphs&rdquo; <a href="https://www.youtube.com/watch?v=wYQdmAEnJTg" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
