@@ -13,7 +13,7 @@ const ResearchPage = () => {
           <strong>Hang Jiang</strong>, Jussi Keppo
           <span style={{ marginLeft: '6px' }}>(2025).</span>
           <a
-            href="https://ssrn.com/abstract=5359948"
+            href="#"
             className={styles.paperLink}
             target="_blank"
             rel="noopener noreferrer"
