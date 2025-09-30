@@ -27,7 +27,7 @@ const ResearchPage = () => {
           <strong>Hang Jiang</strong>
           <span style={{ marginLeft: '6px' }}>(2025).</span>
           <a
-            href="https://ssrn.com/abstract=5359948"
+            href="https://arxiv.org/abs/2509.14766"
             className={styles.paperLink}
             target="_blank"
             rel="noopener noreferrer"
