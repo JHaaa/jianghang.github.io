@@ -21,7 +21,7 @@ const Web3ExperiencePage = () => {
                         </a> <em>Ethereum Research</em>, Feb 2025.
                     </li>
                     <li>
-                        Hang Jiang. (2025). 
+                        Hang Jiang. (2022). 
                         <a className={styles.link} href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4853229" target="_blank" rel="noopener noreferrer">
                             &ldquo;A Dynamic Model for Token-gated Clubs,&rdquo; 
                         </a> <em>preprint</em>, Aug 2022.
