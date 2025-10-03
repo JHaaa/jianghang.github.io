@@ -44,7 +44,7 @@ export default function HomePage() {
         </p>
         <p>
           <strong>
-            My <a href="/research">research</a> investigates how misaligned incentives distort markets and information systems, and how contracts, mechanisms, and policies can be designed to address such limits.
+            My <a href="/research">research</a> investigates how misaligned incentives distort markets, platforms, and information systems, and how contracts, mechanisms, and policies can be designed to address such limits.
           </strong>{' '}
           I pursue this agenda through two complementary research strands. The first develops new theoretical tools for classic principal-agent problems. The second investigates modern challenges in AI, blockchain, livestream commerce, and data markets, where issues such as strategic fakery and data manipulation frequently emerge.
         </p>
