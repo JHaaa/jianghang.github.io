@@ -142,7 +142,7 @@ const ResearchPage = () => {
             href="https://iora.nus.edu.sg/afx2025/ngss-2025/"
             target="_blank"
             rel="noopener noreferrer"
-          ></a> Finalist, Next-Gen Scholar&apos;s Symposium, NUS 2025</li>
+          > Finalist, Next-Gen Scholar&apos;s Symposium </a>{' '} , NUS 2025</li>
         <li>
           <a
             className={styles.link}
