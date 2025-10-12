@@ -5,29 +5,42 @@ import Image from 'next/image';
 export default function HomePage() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '60vh', padding: '2rem', flexWrap: 'wrap' }}>
-      {/* Left Column - Profile Photo */}
-      <div style={{ marginRight: '4rem', marginBottom: '2rem', textAlign: 'center' }}>
-        <Image
-          src="/profile.jpg"
-          alt="Profile Picture"
-          width={250}
-          height={333}
-          style={{ borderRadius: '8px' }} // 使用圆角更友好（可调整为 50% 变成圆形）
-          priority // 提高首页加载速度
-        />
+{/* Left Column - Profile Photo */}
+<div
+  style={{
+    marginTop: '2rem',        // ⬅️ 新增：控制整体下移
+    marginRight: '4rem',
+    marginBottom: '2rem',
+    textAlign: 'center',
+  }}
+>
+  <Image
+    src="/profile.jpg"
+    alt="Profile Picture"
+    width={250}
+    height={333}
+    style={{ borderRadius: '8px' }}
+    priority
+  />
+
   {/* Contact links below image */}
-  <div style={{ marginTop: '1rem', fontSize: '1rem' }}>
+  <div
+    style={{
+      marginTop: '1rem',
+      fontSize: '1rem',
+      display: 'flex',
+      justifyContent: 'center',
+      flexWrap: 'wrap',
+      gap: '2rem', // 控制链接间距
+    }}
+  >
     <a
       href="mailto:jianghang@u.nus.edu"
       style={{
-        marginRight: '1.5rem',
         textDecoration: 'underline',
         color: '#0070f3',
-        display: 'inline-flex',
-        alignItems: 'center',
       }}
     >
-      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}> </span>
       Email
     </a>
 
@@ -38,30 +51,25 @@ export default function HomePage() {
       style={{
         textDecoration: 'underline',
         color: '#0070f3',
-        display: 'inline-flex',
-        alignItems: 'center',
       }}
     >
-      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}> </span>
       CV
     </a>
-        {/* LinkedIn */}
-        <a
+
+    <a
       href="https://www.linkedin.com/in/hang-jiang-24572a1a7/"
       target="_blank"
       rel="noopener noreferrer"
       style={{
         textDecoration: 'underline',
         color: '#0070f3',
-        display: 'inline-flex',
-        alignItems: 'center',
       }}
     >
-      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}> </span>
       LinkedIn
     </a>
   </div>
-      </div>
+</div>
+
 
       {/* Right Column - Main Content */}
       <div style={{ maxWidth: '880px', textAlign: 'justify' }}>
