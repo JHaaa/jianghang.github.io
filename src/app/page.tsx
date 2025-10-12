@@ -27,7 +27,7 @@ export default function HomePage() {
         alignItems: 'center',
       }}
     >
-      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>📧</span>
+      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}> </span>
       Email
     </a>
 
@@ -42,7 +42,7 @@ export default function HomePage() {
         alignItems: 'center',
       }}
     >
-      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>📄</span>
+      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}> </span>
       CV
     </a>
         {/* LinkedIn */}
@@ -57,7 +57,7 @@ export default function HomePage() {
         alignItems: 'center',
       }}
     >
-      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>🔗</span>
+      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}> </span>
       LinkedIn
     </a>
   </div>
