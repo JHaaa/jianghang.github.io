@@ -45,6 +45,21 @@ export default function HomePage() {
       <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>📄</span>
       CV
     </a>
+        {/* LinkedIn */}
+        <a
+      href="https://www.linkedin.com/in/hang-jiang-24572a1a7/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        textDecoration: 'underline',
+        color: '#0070f3',
+        display: 'inline-flex',
+        alignItems: 'center',
+      }}
+    >
+      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>🔗</span>
+      LinkedIn
+    </a>
   </div>
       </div>
 
