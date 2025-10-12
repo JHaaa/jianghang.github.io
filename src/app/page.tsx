@@ -48,6 +48,26 @@ export default function HomePage() {
           </strong>{' '}
           I pursue this agenda through two complementary research strands. The first develops new theoretical tools for classic principal-agent problems. The second investigates modern challenges in AI, blockchain, livestream commerce, and data markets, where issues such as strategic fakery and data manipulation frequently emerge.
         </p>
+                {/* Contact Info */}
+                <div style={{ marginTop: '2rem', fontSize: '1rem' }}>
+          <p>
+            📧 Email:&nbsp;
+            <span style={{ fontFamily: 'monospace' }}>
+              jianghang&nbsp;AT&nbsp;u&nbsp;dot&nbsp;nus&nbsp;dot&nbsp;edu
+            </span>
+          </p>
+          <p>
+            📄 CV:&nbsp;
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: '#0070f3', textDecoration: 'underline' }}
+            >
+              Download PDF
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
