@@ -15,26 +15,37 @@ export default function HomePage() {
           style={{ borderRadius: '8px' }} // 使用圆角更友好（可调整为 50% 变成圆形）
           priority // 提高首页加载速度
         />
-                       {/* Contact Info */}
-                       <div style={{ marginTop: '2rem', fontSize: '1rem' }}>
-          <p>
-            📧 :&nbsp;
-            <span style={{ fontFamily: 'monospace' }}>
-              jianghang&nbsp;AT&nbsp;u&nbsp;dot&nbsp;nus&nbsp;dot&nbsp;edu
-            </span>
-          </p>
-          <p>
-            📄 :&nbsp;
-            <a
-              href="/cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: '#0070f3', textDecoration: 'underline' }}
-            >
-              CV
-            </a>
-          </p>
-        </div>
+  {/* Contact links below image */}
+  <div style={{ marginTop: '1rem', fontSize: '1rem' }}>
+    <a
+      href="mailto:jianghang@u.nus.edu"
+      style={{
+        marginRight: '1.5rem',
+        textDecoration: 'underline',
+        color: '#0070f3',
+        display: 'inline-flex',
+        alignItems: 'center',
+      }}
+    >
+      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>📧</span>
+      Email
+    </a>
+
+    <a
+      href="/cv.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        textDecoration: 'underline',
+        color: '#0070f3',
+        display: 'inline-flex',
+        alignItems: 'center',
+      }}
+    >
+      <span style={{ fontSize: '1.2rem', marginRight: '0.3rem' }}>📄</span>
+      CV
+    </a>
+  </div>
       </div>
 
       {/* Right Column - Main Content */}
