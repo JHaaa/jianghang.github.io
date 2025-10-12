@@ -8,7 +8,7 @@ export default function HomePage() {
 {/* Left Column - Profile Photo */}
 <div
   style={{
-    marginTop: '3rem',        // ⬅️ 新增：控制整体下移
+    marginTop: '5rem',        // ⬅️ 新增：控制整体下移
     marginRight: '4rem',
     marginBottom: '2rem',
     textAlign: 'center',
