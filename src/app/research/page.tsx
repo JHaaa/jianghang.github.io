@@ -20,7 +20,7 @@ const ResearchPage = () => {
           >
             The Human Roadblock to AI.
           </a>
-          <span className={styles.underReview}>Submitted</span>
+          <span className={styles.underReview}>Under Review</span>
         </li>
 
         <li>
