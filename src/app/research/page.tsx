@@ -40,14 +40,7 @@ const ResearchPage = () => {
         <li>
           <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
           <span style={{ marginLeft: '6px' }}>(2025).</span>
-          <a
-            href="#"
-            className={styles.paperLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
             Managing Sales Agents and Product Returns While Guarding Against Fake Orders.
-          </a>
           <span className={styles.underReview}>Under Review</span>
         </li>
 
