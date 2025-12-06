@@ -20,7 +20,7 @@ const ResearchPage = () => {
           >
             The Human Roadblock to AI.
           </a>
-          <span className={styles.underReview}>Under Review</span>
+          <span className={styles.underReview}>Under Review (avaliable upon request)</span>
         </li>
 
         <li>
@@ -35,6 +35,14 @@ const ResearchPage = () => {
             An Implementation Relaxation Approach to Principal-Agent Problems.
           </a>
           <span className={styles.underReview}>Under Review</span>
+          <a
+        href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.link}
+      >
+        [arXiv]
+      </a>
         </li>
 
         <li>
@@ -48,7 +56,7 @@ const ResearchPage = () => {
           >
             Managing Sales Agents and Product Returns While Guarding Against Fake Orders.
           </a>
-          <span className={styles.underReview}>Under Review</span>
+          <span className={styles.underReview}>Under Review (avaliable upon request)</span>
         </li>
 
         <li>
@@ -64,6 +72,14 @@ const ResearchPage = () => {
   </a>
   <span className={styles.underReview}>
     <em>Management Science</em> Major Revision
+    <a
+        href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.link}
+      >
+        [ssrn]
+      </a>
   </span>
 
   {/* 📍 子项部分用 <ul><li> 替换，自动生成圆点 */}
