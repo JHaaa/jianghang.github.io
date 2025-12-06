@@ -10,20 +10,19 @@ const ResearchPage = () => {
       <ul className={styles.customList}>
 
       <li>
-          <strong>Hang Jiang</strong>, Jussi Keppo, Kimon Drakopoulos
-          <span style={{ marginLeft: '6px' }}>(2025).</span>
-
-            Data Competition under the AI Flywheel Effect.
-          <span className={styles.underReview}>Manuscript In Preparation</span>
-        </li>
+  <strong>Hang Jiang</strong>, Jussi Keppo, Kimon Drakopoulos
+  <span style={{ marginLeft: '6px' }}>(2025)</span>
+  <em style={{ marginLeft: '6px' }}>Data Competition under the AI Flywheel Effect</em>
+  <span className={styles.underReview} style={{ marginLeft: '6px' }}>(Manuscript in Preparation)</span>
+      </li>
 
       <li>
-          <strong>Hang Jiang</strong>, Jussi Keppo
-          <span style={{ marginLeft: '6px' }}>(2025).</span>
+  <strong>Hang Jiang</strong>, Jussi Keppo
+  <span style={{ marginLeft: '6px' }}>(2025)</span>
+  <em style={{ marginLeft: '6px' }}>The Human Roadblock to AI</em>
+  <span className={styles.underReview} style={{ marginLeft: '6px' }}>(Under Review)</span>
+    </li>
 
-            The Human Roadblock to AI.
-          <span className={styles.underReview}>Under Review</span>
-        </li>
 
         <li>
           <strong>Hang Jiang</strong>
@@ -40,12 +39,16 @@ const ResearchPage = () => {
         </li>
 
         <li>
-          <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
-          <span style={{ marginLeft: '6px' }}>(2025).</span>
+  <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
+  <span style={{ marginLeft: '6px' }}>(2025)</span>
+  <em style={{ marginLeft: '6px' }}>
+    Managing Sales Agents and Product Returns While Guarding Against Fake Orders
+  </em>
+  <span className={styles.underReview} style={{ marginLeft: '6px' }}>
+    (Under Review)
+  </span>
+</li>
 
-            Managing Sales Agents and Product Returns While Guarding Against Fake Orders.
-          <span className={styles.underReview}>Under Review</span>
-        </li>
 
         <li>
   <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang
