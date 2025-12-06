@@ -10,16 +10,18 @@ const ResearchPage = () => {
       <ul className={styles.customList}>
 
       <li>
+          <strong>Hang Jiang</strong>, Jussi Keppo, Kimon Drakopoulos
+          <span style={{ marginLeft: '6px' }}>(2025).</span>
+
+            Data Competition under the AI Flywheel Effect.
+          <span className={styles.underReview}>Manuscript In Preparation</span>
+        </li>
+
+      <li>
           <strong>Hang Jiang</strong>, Jussi Keppo
           <span style={{ marginLeft: '6px' }}>(2025).</span>
-          <a
-            href="#"
-            className={styles.paperLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+
             The Human Roadblock to AI.
-          </a>
           <span className={styles.underReview}>Under Review</span>
         </li>
 
@@ -40,6 +42,7 @@ const ResearchPage = () => {
         <li>
           <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
           <span style={{ marginLeft: '6px' }}>(2025).</span>
+
             Managing Sales Agents and Product Returns While Guarding Against Fake Orders.
           <span className={styles.underReview}>Under Review</span>
         </li>
