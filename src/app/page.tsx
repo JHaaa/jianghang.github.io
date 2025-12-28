@@ -104,7 +104,7 @@ export default function HomePage() {
 <p>
   <strong>Active Trajectories:</strong>{' '}
   <a 
-    href="https://www.youtube.com/watch?v=FsKEYU6A2jM" 
+    href="https://www.cirm-math.fr/RepOrga/2879/Slides/Jordan_cirm.pdf" 
     target="_blank" 
     rel="noopener noreferrer"
   >
