@@ -97,12 +97,20 @@ export default function HomePage() {
           at the University of Science and Technology of China (USTC).
         </p>
         <p>
-          <strong>
-            My <a href="/research">research</a> investigates how misaligned incentives distort markets, digital platforms, and sociotechnical systems, and how contracts, mechanisms, and policies can be designed to address such limits.
-          </strong>{' '}
-          I pursue this agenda through two complementary research strands. The first develops new theoretical tools for principal-agent problems. The second investigates contemporary incentive-alignment challenges in AI, blockchain, and digital platforms.
-        </p>
-
+  <strong>
+    My <a href="/research">research</a> centres around principal-agent problems.
+  </strong>
+</p>
+<p>
+  <strong>Active Trajectories:</strong>{' '}
+  <a 
+    href="https://www.youtube.com/watch?v=FsKEYU6A2jM" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Statistical Contract Theory
+  </a>; Incentive Aware AI; Sybil-proof Mechanisms and Decentralization.
+</p>
       </div>
     </div>
   );

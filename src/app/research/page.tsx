@@ -9,12 +9,12 @@ const ResearchPage = () => {
       <h3 className={styles.header}>Working Papers</h3>
       <ul className={styles.customList}>
 
-      <li>
+      {/* <li>
   <strong>Hang Jiang</strong>, Jussi Keppo, Kimon Drakopoulos
   <span style={{ marginLeft: '6px' }}>(2025)</span>
   <em style={{ marginLeft: '6px' }}>Data Competition under the AI Flywheel Effect.</em>
   <span className={styles.underReview} style={{ marginLeft: '6px' }}>Manuscript in Preparation</span>
-      </li>
+      </li> */}
 
       <li>
   <strong>Hang Jiang</strong>, Jussi Keppo
