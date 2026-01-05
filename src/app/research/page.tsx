@@ -111,7 +111,7 @@ const ResearchPage = () => {
       <h3 className={styles.header}>Conference Talks</h3>
       <ul className={styles.customList}>
         <li>
-          Selected for presentation at the INFORMS Job Market Showcase Track (October 26, 2025, Atlanta)
+           INFORMS 2025, Job Market Showcase Track (October 26, 2025, Atlanta)
         </li>
         <li>Next-Gen Scholar Symposium, Analytics for X Conference 2025 (Sep 26, 2025, NUS, Singapore)</li>
         <li>2025 INFORMS International Conference (Jul 21, 2025, Singapore)</li>
