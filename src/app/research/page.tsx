@@ -85,7 +85,7 @@ const ResearchPage = () => {
     </li>
 
     <li>
-      Accepted into the 25th ACM Conference on Economics and Computation (EC&apos;24){' '}
+      Accepted into <strong>the 25th ACM Conference on Economics and Computation (EC&apos;24)</strong>{' '}
       <a
         href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
         target="_blank"
@@ -110,16 +110,19 @@ const ResearchPage = () => {
 
       <h3 className={styles.header}>Conference Talks</h3>
       <ul className={styles.customList}>
+      <li>
+          2026 POMS-HK International Conference (Jan 3, 2026, Atlanta)
+        </li>
         <li>
-           2025 INFORMS Annual Meeting, Job Market Showcase Track (October 26, 2025, Atlanta)
+           2025 INFORMS Annual Meeting, Job Market Showcase Track (Oct 26, 2025, Atlanta)
         </li>
         <li>Next-Gen Scholar Symposium, Analytics for X Conference 2025 (Sep 26, 2025, NUS, Singapore)</li>
         <li>2025 INFORMS International Conference (Jul 21, 2025, Singapore)</li>
         <li>
-          The 7th World Congress of the Game Theory Society (August 22, 2024, PKU, Beijing)
+          The 7th World Congress of the Game Theory Society (Aug 22, 2024, PKU, Beijing)
         </li>
         <li>
-          The 25th ACM Conference on Economics and Computation (July 9, 2024, Yale, New Haven){' '}
+          The 25th ACM Conference on Economics and Computation (Jul 9, 2024, Yale, New Haven){' '}
           <a
             href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
             target="_blank"
