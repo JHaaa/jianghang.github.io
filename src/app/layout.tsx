@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Link href="/" style={{ fontSize: '20px', fontWeight: 'bold' }}>Home</Link>
           <Link href="/research" style={{ fontSize: '20px', fontWeight: 'bold' }}>Research</Link>
           <Link href="/teaching" style={{ fontSize: '20px', fontWeight: 'bold' }}>Teaching</Link>
-          <Link href="/Web3-experience" style={{ fontSize: '20px', fontWeight: 'bold' }}>Industry Experience</Link>
+          <Link href="/web3-experience" style={{ fontSize: '20px', fontWeight: 'bold' }}>Industry Experience</Link>
         </nav>
         <main>{children}</main>
       </body>

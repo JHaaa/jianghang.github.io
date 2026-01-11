@@ -67,7 +67,7 @@ const ResearchPage = () => {
     Revisiting the First-Order Approach to Principal-Agent Problems.
   </a>
   <span className={styles.underReview}>
-  2nd-round R&amp;R at <em>Management Science</em> 
+  2nd R&amp;R at <em>Management Science</em> 
   </span>
 
   {/* 📍 子项部分用 <ul><li> 替换，自动生成圆点 */}
