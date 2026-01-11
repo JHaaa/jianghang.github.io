@@ -3,13 +3,11 @@ import styles from './Web3ExperiencePage.module.css';
 const Web3ExperiencePage = () => {
     return (
         <div className={styles.container}>
-            <h1>Web3 Experience</h1>
+            <h1>Industry Experience</h1>
             <div className={styles.listContainer}>
                 <p>
-                  Crypto investor since 2018; joined 
+                  Joined 
                     <a href="https://globalcoinresearch.com/" target="_blank" rel="noopener noreferrer"> Global Coin Research (GCR)</a> in 2021 and served as Head of Research until late 2022. 
-                    Now active as a core-team member, investing and sporadically sharing thoughts within the 
-                    <a href="https://discord.com/invite/globalcoinresearch" target="_blank" rel="noopener noreferrer"> GCR community on Discord</a>.
                 </p>
                 
                 <h3 className={styles.header}>Articles</h3>

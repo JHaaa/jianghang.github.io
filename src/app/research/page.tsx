@@ -85,7 +85,7 @@ const ResearchPage = () => {
     </li>
 
     <li>
-      Accepted into <strong>the 25th ACM Conference on Economics and Computation (EC&apos;24)</strong>{' '}
+    Extended Abstract in Proceedings of the 25th ACM Conference on Economics and Computation (EC&apos;24){' '}
       <a
         href="https://www.youtube.com/watch?v=6VRMU8f5dT8"
         target="_blank"
@@ -97,11 +97,7 @@ const ResearchPage = () => {
     </li>
 
     <li>
-      Accepted into the 7th World Congress of the Game Theory Society (GAMES 2024)
-    </li>
-
-    <li>
-      Accepted into the Conference on Information System and Technology (CIST 2024)
+      Presented at the 7th World Congress of the Game Theory Society (GAMES 2024)
     </li>
   </ul>
 </li>
