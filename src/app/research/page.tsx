@@ -149,7 +149,7 @@ const ResearchPage = () => {
         <li>
           <a
             className={styles.link}
-            href="https://credentials.nus.edu.sg/14ac0f01-5f69-4f80-9c2b-95c3e9678b91#acc.qJiAIzOo"
+            href="https://iora.nus.edu.sg/afx2025/ngss-2025/#:~:text=Hang%20Jiang"
             target="_blank"
             rel="noopener noreferrer"
           >
