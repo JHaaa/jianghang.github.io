@@ -103,13 +103,8 @@ export default function HomePage() {
 </p>
 <p>
   <strong>Active Trajectories:</strong>{' '}
-  <a 
-    href="https://www.cirm-math.fr/RepOrga/2879/Slides/Jordan_cirm.pdf" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    Statistical Contract Theory
-  </a>; Incentive Aware AI; Sybil-proof Mechanisms and Decentralization.
+  
+    Statistical Contract Theory; Human-AI Alignment; Incentive-Aware Machine Learning.
 </p>
       </div>
     </div>
