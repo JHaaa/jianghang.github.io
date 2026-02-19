@@ -104,7 +104,7 @@ export default function HomePage() {
 <p>
   <strong>Active Trajectories:</strong>{' '}
   
-    (Statistical) Contract Theory; Human-AI Alignment; The Economics of AI.
+    (Statistical) Contract Theory; The Economics of AI. 
 </p>
       </div>
     </div>
