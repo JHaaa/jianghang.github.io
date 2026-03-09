@@ -106,6 +106,7 @@ export default function HomePage() {
   ,{' '}
     Department of Information Systems and Analytics.
 </p>
+<p>
   <strong>
     My <a href="/research">research</a> centres around principal-agent problems.
   </strong>
