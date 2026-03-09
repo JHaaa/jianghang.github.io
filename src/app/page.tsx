@@ -75,7 +75,7 @@ export default function HomePage() {
       <div style={{ maxWidth: '880px', textAlign: 'justify' }}>
         <h1>Hi, I&apos;m Hang Jiang!</h1>
         
-        <p>
+       {/* <p>
           I am a PhD candidate in the{' '}
           <a href="https://www.comp.nus.edu.sg/disa/" target="_blank" rel="noopener noreferrer">
             Department of Information Systems and Analytics
@@ -96,7 +96,16 @@ export default function HomePage() {
           </a>{' '}
           at the University of Science and Technology of China (USTC).
         </p>
+    <p>*/}
+
         <p>
+  I am a PhD Candidate at{' '}
+  <a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
+    NUS Computing
+  </a>
+  ,{' '}
+    Department of Information Systems and Analytics.
+</p>
   <strong>
     My <a href="/research">research</a> centres around principal-agent problems.
   </strong>
@@ -104,7 +113,7 @@ export default function HomePage() {
 <p>
   <strong>Active Trajectories:</strong>{' '}
   
-    (Statistical) Contract Theory; The Economics of AI. 
+    (Statistical) Contract Theory; The Economics of AI; Sybil Proof Mechanisms. 
 </p>
       </div>
     </div>
