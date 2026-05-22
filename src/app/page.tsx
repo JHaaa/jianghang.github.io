@@ -99,22 +99,23 @@ export default function HomePage() {
     <p>*/}
 
         <p>
-  I am a PhD Candidate at{' '}
-  <a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
-    NUS Computing
-  </a>
-  ,{' '}
-    Department of Information Systems and Analytics.
+  I am incoming Assistant Professor in FinTech at HKUST (GZ). I received my PhD from NUS Computing. Prior to that, I received my M.S. from SUSTech Math and B.S. from USTC (Special Class for the Gifted Young).
 </p>
 <p>
   <strong>
-    My <a href="/research">research</a> centres around principal-agent problems.
+    My <a href="/research">research</a> studies principal-agent problems 
+    with applications to AI and FinTech. 
   </strong>
 </p>
 <p>
   <strong>Active Trajectories:</strong>{' '}
-  
-    (Statistical) Contract Theory; The Economics of AI; Sybil Proof Mechanisms. 
+   (Statistical) Contract Theory; AI Agent Incentives; Sybil Proof Mechanisms. 
+</p>
+<p>
+  <strong>News:</strong> I am currently looking for PhD students and full-time RAs with a strong 
+  interest in FinTech or AI research. Backgrounds in math, EconCS, operations research, 
+  statistics, or related fields are preferred. If you are interested, please feel free to contact me at{' '}
+  <a href="mailto:jianghang@u.nus.edu">jianghang AT u.nus.edu</a>.
 </p>
       </div>
     </div>
