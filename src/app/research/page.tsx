@@ -132,8 +132,9 @@ const ResearchPage = () => {
         </li>
       </ul>
 
-      <h3 className={styles.header}>Awards</h3>
+      <h3 className={styles.header}>Honors and Awards</h3>
       <ul className={styles.customList}>
+        <li>Research Excellence Postdoctoral Fellowship, University of Toronto, 2026 (declined)</li>
         <li>
         <a
             className={styles.link}
@@ -161,6 +162,9 @@ const ResearchPage = () => {
         </li>
         <li>Student Travel Grant, ACM EC Conference 2024</li>
         <li>Research Incentive Award, School of Computing, NUS, 2023–2025</li>
+        <li>NUS Research Scholarship, NUS 2021--2025</li>
+        <li>Graduate Scholarship, SUSTech, 2017--2019 </li>
+        <li>Outstanding Undergraduate Scholarship, USTC, 2012</li>
       </ul>
     </div>
   );
