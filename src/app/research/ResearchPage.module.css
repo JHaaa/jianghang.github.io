@@ -1,68 +1,61 @@
 .container {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  max-width: 1080px;
+  max-width: var(--page-max);
   margin: 0 auto;
-}
-
-.listContainer {
-  margin-top: 20px;
+  padding: 3rem var(--page-pad);
 }
 
 .header {
-  margin-top: 20px;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin-top: 2.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .customList {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.customList li {
-  margin-bottom: 10px;
+.customList > li {
+  padding: 0.875rem 0;
+  border-bottom: 1px solid #f3f4f6;
+  line-height: 1.65;
+  font-size: 0.9375rem;
 }
 
-.link {
-  color: #1a0dab;         /* 柔和蓝灰 */
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.link:hover {
-  color: #1a0dab;         /* 鼠标悬停变主蓝色 */
-  text-decoration: underline;
+.customList > li:last-child {
+  border-bottom: none;
 }
 
 .paperLink {
   font-style: italic;
-  color: #1a0dab;
+  color: var(--accent);
   text-decoration: none;
-  margin-left: 8px;
-  transition: color 0.2s ease;
+  margin-left: 4px;
 }
 
 .paperLink:hover {
-  color: #d93025;
+  text-decoration: underline;
 }
 
 .underReview {
   margin-left: 8px;
+  color: var(--text-secondary);
   font-style: normal;
-  color: #333;
+  font-size: 0.9rem;
 }
 
-/* 让子行更透气的行距与间距 */
-.subItem {
-  display: block;
-  margin-top: 6px;
-  line-height: 1.2;
+.link {
+  color: var(--accent);
+  text-decoration: none;
 }
 
-/* 其余你已有样式保持不变 */
-
-
+.link:hover {
+  text-decoration: underline;
+}

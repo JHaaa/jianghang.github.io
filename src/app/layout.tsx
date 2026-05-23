@@ -1,20 +1,23 @@
 import './globals.css';
 import { ReactNode } from 'react';
-import Link from 'next/link';
+import { Inter } from 'next/font/google';
+import Navbar from '@/components/Navbar';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+export const metadata = {
+  title: "JIANG Hang's Personal Website",
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <title>JIANG Hang&apos;s Personal Website</title>
-      </head>
+    <html lang="en" className={inter.variable}>
       <body>
-        <nav style={{ display: 'flex', justifyContent: 'center', gap: '100px', padding: '50px', backgroundColor: '#f0f0f0' }}>
-          <Link href="/" style={{ fontSize: '20px', fontWeight: 'bold' }}>Home</Link>
-          <Link href="/research" style={{ fontSize: '20px', fontWeight: 'bold' }}>Research</Link>
-          <Link href="/teaching" style={{ fontSize: '20px', fontWeight: 'bold' }}>Teaching</Link>
-          <Link href="/web3-experience" style={{ fontSize: '20px', fontWeight: 'bold' }}>Industry Experience</Link>
-        </nav>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
