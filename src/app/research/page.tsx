@@ -56,7 +56,7 @@ const ResearchPage = () => {
             Revisiting the First-Order Approach to Principal-Agent Problems.
           </a>
           <span className={styles.underReview}>
-            2nd round revision at <em>Management Science</em>
+            minor revision at <em>Management Science</em>
           </span>
           <ul style={{ marginTop: '0.5rem', marginLeft: '1rem', lineHeight: '1.6', color: '#000', listStyleType: 'disc' }}>
             <li>
