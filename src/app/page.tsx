@@ -25,7 +25,7 @@ export default function HomePage() {
       <div className={styles.bio}>
         <h1>Hi, I&apos;m Hang Jiang!</h1>
         <p>
-          I am Assistant Professor in FinTech at HKUST (GZ). I received my PhD from NUS Computing. Prior to that, I received my M.S. from SUSTech Math and B.S. from USTC (Special Class for the Gifted Young).
+          I am an Assistant Professor in FinTech at HKUST (GZ). I received my PhD from NUS Computing. Prior to that, I received my M.S. from SUSTech Math and B.S. from USTC (Special Class for the Gifted Young).
         </p>
         <p>
           <strong>
