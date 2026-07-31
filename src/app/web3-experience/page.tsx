@@ -7,7 +7,7 @@ const Web3ExperiencePage = () => {
             <div className={styles.listContainer}>
                 <p>
                   Joined 
-                    <a href="https://globalcoinresearch.com/" target="_blank" rel="noopener noreferrer"> Global Coin Research (GCR)</a> in 2021 and served as Head of Research until late 2022. 
+                    <a href="https://x.com/Globalcoinrsrch" target="_blank" rel="noopener noreferrer"> Global Coin Research (GCR)</a> in 2021 and served as Head of Research until late 2022. 
                 </p>
                 
                 <h3 className={styles.header}>Articles</h3>
