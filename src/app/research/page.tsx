@@ -11,7 +11,7 @@ const ResearchPage = () => {
 
         <li>
           <strong>Hang Jiang</strong>, Jussi Keppo
-          <span style={{ marginLeft: '6px' }}>(2025)</span>
+          <span style={{ marginLeft: '6px' }}>(2026)</span>
           <em style={{ marginLeft: '6px' }}>The Limits of AI-Mediated Decision Systems: Strategic Manipulation and Endogenous Reliance.</em>
           <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
         </li>
