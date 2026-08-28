@@ -12,7 +12,7 @@ const ResearchPage = () => {
         <li>
           <strong>Hang Jiang</strong>, Jussi Keppo
           <span style={{ marginLeft: '6px' }}>(2025)</span>
-          <em style={{ marginLeft: '6px' }}>The Human Roadblock to AI.</em>
+          <em style={{ marginLeft: '6px' }}>The Limits of AI-Mediated Decision Systems: Strategic Manipulation and Endogenous Reliance.</em>
           <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
         </li>
 
@@ -30,19 +30,19 @@ const ResearchPage = () => {
           <span className={styles.underReview}>Under Review</span>
         </li>
 
-        <li>
-          <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
-          <span style={{ marginLeft: '6px' }}>(2025)</span>
-          <a
-            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5923462"
-            className={styles.paperLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Managing Sales Agents and Product Returns While Guarding Against Fake Orders.
-          </a>
-          <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
-        </li>
+<li>
+  <strong>Hang Jiang</strong>, Jussi Keppo
+  <span style={{ marginLeft: '6px' }}>(2025)</span>
+  <a
+    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7362120"
+    className={styles.paperLink}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    The Limits of AI-Mediated Decision Systems: Strategic Manipulation and Endogenous Reliance.
+  </a>
+  <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
+</li>
 
         <li>
           <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang
