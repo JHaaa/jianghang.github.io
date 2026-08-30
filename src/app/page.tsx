@@ -28,14 +28,12 @@ export default function HomePage() {
           I am an Assistant Professor in FinTech at HKUST (GZ). I received my PhD from NUS Computing. Prior to that, I received my M.S. from SUSTech Math and B.S. from USTC (Special Class for the Gifted Young).
         </p>
         <p>
-          <strong>
-            My <a href="/research">research</a> studies principal-agent problems
+            My <strong> <a href="/research">research</a> </strong> studies principal-agent problems
             with applications to AI and FinTech.
-          </strong>
         </p>
         <p>
           <strong>Active Trajectories:</strong>{' '}
-          (Statistical) Contract Theory; AI Agents; Token Economics.
+           AI Agents; Token Economics.
         </p>
         <p>
           <strong>News:</strong> I am currently looking for PhD students and full-time RAs with a strong
