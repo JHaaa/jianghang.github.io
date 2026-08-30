@@ -35,7 +35,7 @@ export default function HomePage() {
         </p>
         <p>
           <strong>Active Trajectories:</strong>{' '}
-          (Statistical) Contract Theory; AI Agent Incentives; Sybil Proof Mechanisms.
+          (Statistical) Contract Theory; AI Agents; Token Economics.
         </p>
         <p>
           <strong>News:</strong> I am currently looking for PhD students and full-time RAs with a strong
