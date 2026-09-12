@@ -46,7 +46,7 @@ const ResearchPage = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    Managing Sales Agents and Product Returns While Guarding Against Fake Orders.
+    Digital Sales Metrics, Online Product Returns, and Guarding Against Fake Orders.
   </a>
   <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
 </li>
