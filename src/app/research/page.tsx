@@ -14,7 +14,10 @@ const ResearchPage = () => {
           <span style={{ marginLeft: '6px' }}>
             Revisiting the First-Order Approach to Principal-Agent Problems.
           </span>
-          <a
+          <span style={{ marginLeft: '6px' }}>
+            <em>Management Science</em>, forthcoming.
+          </span>
+                    <a
             href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,9 +26,6 @@ const ResearchPage = () => {
           >
             [SSRN version]
           </a>
-          <span style={{ marginLeft: '6px' }}>
-            <em>Management Science</em>, forthcoming.
-          </span>
 
           <ul
             style={{
