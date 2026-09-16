@@ -42,9 +42,17 @@ const ResearchPage = () => {
                 [certificate] 
               </a> 
             </li> 
-            <li> 
-              Extended Abstract in Proceedings of the 25th ACM Conference on Economics and Computation (EC&apos;24) 
-            </li> 
+<li> 
+  Extended Abstract in Proceedings of the 25th ACM Conference on Economics and Computation{' '}
+  <a
+    href="https://dl.acm.org/doi/10.1145/3670865.3673453"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles.link}
+  >
+    [ACM Digital Library]
+  </a>
+</li>
             <li> 
               Presented at the 25th ACM Conference on Economics and Computation{' '} 
               <a 
