@@ -8,19 +8,17 @@ const ResearchPage = () => {
  
       <h3 className={styles.header}>Publications</h3> 
       <ul className={styles.customList}> 
-        <li> 
-          <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang 
-          <span style={{ marginLeft: '6px' }}>(2026).</span>{' '}
-          Revisiting the First-Order Approach to Principal-Agent Problems.{' '}
-          <em>Management Science</em>, forthcoming.{' '}
-          <a 
-            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className={styles.link} 
-          > 
-            [SSRN version] 
-          </a> 
+        <li>
+  <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang{' '}
+  <a
+    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135"
+    className={styles.paperLink}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Revisiting the First-Order Approach to Principal-Agent Problems.
+  </a>{' '}
+  <em>Management Science</em>, forthcoming.
  
           <ul 
             style={{ 
