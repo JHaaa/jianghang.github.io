@@ -9,7 +9,7 @@ const ResearchPage = () => {
       <h3 className={styles.header}>Publications</h3> 
       <ul className={styles.customList}> 
         <li>
-  <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang{' '}
+  <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang.{' '}
   <a
     href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135"
     className={styles.paperLink}
@@ -72,7 +72,7 @@ const ResearchPage = () => {
 <h3 className={styles.header}>Working Papers</h3> 
 <ul className={styles.customList}> 
   <li> 
-    <strong>Hang Jiang</strong>, Jussi Keppo 
+    <strong>Hang Jiang</strong>, Jussi Keppo.{' '} 
     <a 
       href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7362120" 
       className={styles.paperLink} 
@@ -87,7 +87,7 @@ const ResearchPage = () => {
   </li> 
 
   <li> 
-    <strong>Hang Jiang</strong> 
+    <strong>Hang Jiang</strong>.{' '} 
     <a 
       href="https://arxiv.org/abs/2509.14766" 
       className={styles.paperLink} 
@@ -100,7 +100,7 @@ const ResearchPage = () => {
   </li> 
 
   <li> 
-    <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin 
+    <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin.{' '} 
     <a 
       href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5923462" 
       className={styles.paperLink} 
