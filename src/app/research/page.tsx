@@ -50,7 +50,7 @@ const ResearchPage = () => {
     rel="noopener noreferrer"
     className={styles.link}
   >
-    [ACM Digital Library]
+    [ACM DL]
   </a>
 </li>
             <li> 
