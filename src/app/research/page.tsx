@@ -6,66 +6,36 @@ const ResearchPage = () => {
     <div className={styles.container}>
       <h1>Research</h1>
 
-      <h3 className={styles.header}>Working Papers</h3>
+      <h3 className={styles.header}>Publications</h3>
       <ul className={styles.customList}>
-
-<li>
-  <strong>Hang Jiang</strong>, Jussi Keppo
-  <span style={{ marginLeft: '6px' }}>(2026)</span>
-  <a
-    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7362120"
-    className={styles.paperLink}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    The Limits of AI-Mediated Decision Systems: Strategic Manipulation and Endogenous Reliance.
-  </a>
-  <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
-</li>
-
-        <li>
-          <strong>Hang Jiang</strong>
-          <span style={{ marginLeft: '6px' }}>(2025).</span>
-          <a
-            href="https://arxiv.org/abs/2509.14766"
-            className={styles.paperLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            An Implementation Relaxation Approach to Principal-Agent Problems.
-          </a>
-          <span className={styles.underReview}>Under Review</span>
-        </li>
-
-<li>
-  <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
-  <span style={{ marginLeft: '6px' }}>(2025)</span>
-  <a
-    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5923462"
-    className={styles.paperLink}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Digital Sales Metrics, Online Product Returns, and Guarding Against Fake Orders.
-  </a>
-  <span className={styles.underReview} style={{ marginLeft: '6px' }}>Under Review</span>
-</li>
-
         <li>
           <strong>Hang Jiang</strong>, Chen Jin, Luyi Yang
           <span style={{ marginLeft: '6px' }}>(2024).</span>
+          <span style={{ marginLeft: '6px' }}>
+            Revisiting the First-Order Approach to Principal-Agent Problems.
+          </span>
           <a
             href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4715135"
-            className={styles.paperLink}
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.link}
+            style={{ marginLeft: '6px' }}
           >
-            Revisiting the First-Order Approach to Principal-Agent Problems.
+            [SSRN version]
           </a>
-          <span className={styles.underReview}>
-            minor revision at <em>Management Science</em>
+          <span style={{ marginLeft: '6px' }}>
+            <em>Management Science</em>, forthcoming.
           </span>
-          <ul style={{ marginTop: '0.5rem', marginLeft: '1rem', lineHeight: '1.6', color: '#000', listStyleType: 'disc' }}>
+
+          <ul
+            style={{
+              marginTop: '0.5rem',
+              marginLeft: '1rem',
+              lineHeight: '1.6',
+              color: '#000',
+              listStyleType: 'disc',
+            }}
+          >
             <li>
               <strong>ORSS Best Student Paper Award</strong>{' '}
               <a
@@ -96,7 +66,55 @@ const ResearchPage = () => {
             </li>
           </ul>
         </li>
+      </ul>
 
+      <h3 className={styles.header}>Working Papers</h3>
+      <ul className={styles.customList}>
+        <li>
+          <strong>Hang Jiang</strong>, Jussi Keppo
+          <span style={{ marginLeft: '6px' }}>(2026)</span>
+          <a
+            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7362120"
+            className={styles.paperLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The Limits of AI-Mediated Decision Systems: Strategic Manipulation and Endogenous Reliance.
+          </a>
+          <span className={styles.underReview} style={{ marginLeft: '6px' }}>
+            Under Review
+          </span>
+        </li>
+
+        <li>
+          <strong>Hang Jiang</strong>
+          <span style={{ marginLeft: '6px' }}>(2025).</span>
+          <a
+            href="https://arxiv.org/abs/2509.14766"
+            className={styles.paperLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            An Implementation Relaxation Approach to Principal-Agent Problems.
+          </a>
+          <span className={styles.underReview}>Under Review</span>
+        </li>
+
+        <li>
+          <strong>Hang Jiang</strong>, Luyi Yang, Chen Jin
+          <span style={{ marginLeft: '6px' }}>(2025)</span>
+          <a
+            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5923462"
+            className={styles.paperLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Digital Sales Metrics, Online Product Returns, and Guarding Against Fake Orders.
+          </a>
+          <span className={styles.underReview} style={{ marginLeft: '6px' }}>
+            Under Review
+          </span>
+        </li>
       </ul>
 
       <h3 className={styles.header}>Conference Talks</h3>
