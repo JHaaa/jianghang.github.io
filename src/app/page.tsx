@@ -14,11 +14,11 @@ export default function HomePage() {
           className={styles.photo}
           priority
         />
-        <div className={styles.contactLinks}>
+        {/*<div className={styles.contactLinks}>
           <a href="mailto:jianghang@u.nus.edu">Email</a>
           <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
           <a href="https://www.linkedin.com/in/hang-jiang-24572a1a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
+        </div>*/}
       </div>
 
       {/* Right column — bio */}
