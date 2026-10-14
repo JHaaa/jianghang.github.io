@@ -37,8 +37,7 @@ export default function HomePage() {
         </p>
         <p>
           <strong>News:</strong> I am currently looking for PhD students and full-time RAs with a strong
-          interest in FinTech or AI research. Backgrounds in EconCS, math, operations research,
-          statistics, or related fields are preferred. If you are interested, please feel free to contact me at{' '}
+          interest in FinTech or AI research. Please feel free to contact me at{' '}
           <a href="mailto:jianghang@u.nus.edu">jianghang AT u.nus.edu</a> or <a href="mailto:hangjiang@hkust-gz.edu.cn">hangjiang AT hkust-gz.edu.cn</a>.
         </p>
       </div>
