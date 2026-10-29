@@ -6,6 +6,10 @@ const TeachingPage = () => {
     <div className={styles.container}>
       <h1>Teaching</h1>
       <div className={styles.teachingContent}>
+        <h3>Instructor, HKUST (GZ)</h3>
+<ul>
+  <li><strong>FTEC 2120</strong> Probability (Spring 2027)</li>
+</ul>
         <h3>Teaching Assistant, School of Computing, NUS</h3>
         <ul>
           <li><strong>BT4013</strong> Analytics for Capital Market Trading and Investment (2023)</li>
