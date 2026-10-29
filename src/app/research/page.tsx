@@ -30,7 +30,7 @@ const ResearchPage = () => {
             }} 
           > 
             <li> 
-              <strong>ORSS Best Student Paper Award</strong>{' '} 
+              <strong>Operations Research Society of Singapore (ORSS) Best Student Paper Award</strong>{' '} 
               <a 
                 href="/ORS_Best_Student_Paper.pdf" 
                 target="_blank" 
