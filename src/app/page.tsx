@@ -23,7 +23,7 @@ export default function HomePage() {
 
       {/* Right column — bio */}
       <div className={styles.bio}>
-        <h1>Hi, I&apos;m Hang Jiang (江航)!</h1>
+        <h1 className="home-title">Hi, I&apos;m Hang Jiang (江航)!</h1>
 <p className="bio">
   I am an Assistant Professor in FinTech at{" "}
   <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hang/hangjiang" target="_blank" rel="noopener noreferrer">
