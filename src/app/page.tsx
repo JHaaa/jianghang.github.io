@@ -24,16 +24,24 @@ export default function HomePage() {
       {/* Right column — bio */}
       <div className={styles.bio}>
         <h1>Hi, I&apos;m Hang Jiang!</h1>
-<p>
-  I am an Assistant Professor in FinTech at
-  <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hang/hangjiang" target="_blank">HKUST (GZ)</a>.
-  I received my Ph.D. in Information Systems from
-  <a href="https://www.comp.nus.edu.sg/" target="_blank">NUS School of Computing</a>,
-  my M.S. in Probability and Mathematical Statistics from
-  <a href="https://math.sustech.edu.cn/?lang=en" target="_blank">SUSTech</a>,
-  and my B.S. in Statistics from
-  <a href="https://en.ustc.edu.cn/" target="_blank">USTC</a>
-  (<a href="https://en.scgy.ustc.edu.cn/7808/list.htm" target="_blank">Special Class for the Gifted Young</a>).
+<p className="bio">
+  I am an Assistant Professor in FinTech at{" "}
+  <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIANG-Hang/hangjiang" target="_blank" rel="noopener noreferrer">
+    HKUST (GZ)
+  </a>
+  . I received my Ph.D. in Information Systems from{" "}
+  <a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noopener noreferrer">
+    NUS Computing
+  </a>
+  , my M.S. in Probability and Mathematical Statistics from{" "}
+  <a href="https://math.sustech.edu.cn/?lang=en" target="_blank" rel="noopener noreferrer">
+    SUSTech Math
+  </a>
+  , and my B.S. in Statistics from{" "}
+  <a href="https://en.scgy.ustc.edu.cn/7808/list.htm" target="_blank" rel="noopener noreferrer">
+    USTC (Special Class for the Gifted Young)
+  </a>
+  .
 </p>
         <p>
             My <strong> <a href="/research">research</a> </strong> studies principal-agent problems
