@@ -35,7 +35,7 @@ export default function HomePage() {
   </a>
   , my M.S. in Probability and Mathematical Statistics from{" "}
   <a href="https://math.sustech.edu.cn/?lang=en" target="_blank" rel="noopener noreferrer">
-    SUSTech Math
+    SUSTech Mathematics
   </a>
   , and my B.S. in Statistics from{" "}
   <a href="https://en.scgy.ustc.edu.cn/7808/list.htm" target="_blank" rel="noopener noreferrer">
