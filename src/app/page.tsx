@@ -38,7 +38,7 @@ export default function HomePage() {
     SUSTech Mathematics
   </a>
   , and my B.S. in Statistics from{" "}
-  <a href="https://en.scgy.ustc.edu.cn/7808/list.htm" target="_blank" rel="noopener noreferrer">
+  <a href="https://en.scgy.ustc.edu.cn/7808/list.htm#:~:text=Special%20Class%20for%20the%20Gifted%20Young" target="_blank" rel="noopener noreferrer">
     USTC (Special Class for the Gifted Young)
   </a>
   .
