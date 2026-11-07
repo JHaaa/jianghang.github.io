@@ -117,6 +117,7 @@ const ResearchPage = () => {
  
       <h3 className={styles.header}>Conference Talks</h3> 
       <ul className={styles.customList}> 
+        <li>2026 INFORMS Annual Meeting (Nov 3, 2026, San Francisco)</li>
         <li>2026 POMS-HK International Conference (Jan 3, 2026, Shenzhen)</li> 
         <li>2025 INFORMS Annual Meeting, Job Market Showcase Track (Oct 26, 2025, Atlanta)</li> 
         <li>Next-Gen Scholar Symposium, Analytics for X Conference 2025 (Sep 26, 2025, NUS, Singapore)</li> 
